@@ -1,0 +1,63 @@
+<!-- galaxy.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Galaxy - The Milky Way</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: radial-gradient(ellipse at center, #1a2233 0%, #090a0f 100%);
+            color: #f4f4f4;
+            font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: rgba(30, 34, 54, 0.95);
+            border-radius: 18px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            padding: 2rem 2.5rem;
+            max-width: 420px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 1.2rem;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #bfc9d1;
+            margin-bottom: 1.2rem;
+        }
+        @media (max-width: 500px) {
+            .card {
+                padding: 1rem;
+                max-width: 95vw;
+            }
+            h1 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Milky_Way_Galaxy.jpg" alt="Milky Way Galaxy">
+        <h1>Welcome to Our Galaxy</h1>
+        <p>
+            The Milky Way is the galaxy that contains our Solar System. It is a barred spiral galaxy with a diameter between 100,000 and 200,000 light-years. Explore the wonders of our cosmic home!
+        </p>
+    </div>
+</body>
+</html>
